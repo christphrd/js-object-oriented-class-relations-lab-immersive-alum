@@ -38,6 +38,7 @@ class Trip {
   }
   
   passenger() {
+    console.log(this.passengerId)
     return store.passengers.find(this.passengerId)
   }
 }
