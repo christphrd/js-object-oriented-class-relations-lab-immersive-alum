@@ -39,5 +39,5 @@ class Trip {
   
   passenger() {
     return store.passengers.find(this.passengerId)
-  }
+  }.bind(this)
 }
