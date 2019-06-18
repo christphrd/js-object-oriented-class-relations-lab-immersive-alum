@@ -1,6 +1,7 @@
 let store = {
   drivers: [],
-  passengers: []
+  passengers: [],
+  trips: []
 }
 
 let driverId = 0;
