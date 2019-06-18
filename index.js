@@ -34,7 +34,7 @@ class Passenger {
   }
   
   trips() {
-    
+    return store.trips.filter(tripObj => tripObj.passengerId === this.id)
   }
   
   drivers() {
