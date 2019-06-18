@@ -38,6 +38,6 @@ class Trip {
   }
   
   passenger() {
-    return store.passengers.find(passengerId)
+    return store.passengers.find(this.passengerId)
   }
 }
