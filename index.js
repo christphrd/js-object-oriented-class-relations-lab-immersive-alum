@@ -40,4 +40,8 @@ class Trip {
   passenger() {
     return store.passengers.find(passengerObj => passengerObj.id === this.passengerId)
   }
+  
+  driver() {
+    
+  }
 }
