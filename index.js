@@ -42,6 +42,6 @@ class Trip {
   }
   
   driver() {
-    return store.passengers.find(passengerObj => passengerObj.id === this.passengerId)
+    return store.drivers.find(driverObj => driverObj.id === this.driverId)
   }
 }
