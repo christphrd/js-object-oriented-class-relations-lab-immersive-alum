@@ -32,6 +32,14 @@ class Passenger {
     
     store.passengers.push(this)
   }
+  
+  trips() {
+    
+  }
+  
+  drivers() {
+    
+  }
 }
 
 let tripId = 0;
