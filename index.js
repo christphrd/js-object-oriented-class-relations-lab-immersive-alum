@@ -19,7 +19,7 @@ class Driver {
   }
   
   passengers() {
-    
+    return this.trips().map(tripObj => trip)
   }
 }
 
