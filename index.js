@@ -1,3 +1,5 @@
+let store = {}
+
 class Driver {
   constructor(id, name) {
     this.id = id;
