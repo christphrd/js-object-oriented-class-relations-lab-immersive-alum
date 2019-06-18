@@ -1,4 +1,7 @@
-let store = {}
+let store = {
+  drivers: [],
+  passengers: []
+}
 
 class Driver {
   constructor(id, name) {
