@@ -6,7 +6,7 @@ let store = {
 let driverId = 0;
 
 class Driver {
-  constructor(id, name) {
+  constructor(name) {
     this.id = ++driverId;
     this.name = name;
     
