@@ -38,7 +38,7 @@ class Passenger {
   }
   
   drivers() {
-  
+    return this.trips().map(tripObj => tripObj.driver())
   }
 }
 
